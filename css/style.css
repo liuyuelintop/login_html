@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial';
+}
+
+.wrap{
+	width: 100%;
+	background: #494FE2;
+	min-height: 768px;
+    overflow: hidden;
+}
+
+.wrap .wrap-logo{
+	background: white;
+	width: 100%;
+	min-height: 400px;
+	position: relative;
+}
+
+.wrap .wrap-logo img {
+	margin-left: 44%;
+	margin-top: 100px;
+}
+
+.wrap .content{
+	width: 300px;
+	height: 280px;
+	border-radius: 20px;
+	background: white;
+	border: 2px solid #EDEDED;
+	position: absolute;
+	left: 40%;
+	top: 30%;
+	z-index: 99;
+
+} 
+
+.wrap .content .input-form{
+	width: 80%;
+	margin-left: 10%;
+	height: 40px;
+    margin-bottom: 10px;
+	padding-left: 5px;
+	border-radius: 10px;
+	border: 1px solid #494FE2;
+	font-size: 18px;
+}
+
+.wrap .content .input-form:nth-child(1){
+	margin-top: 40px;
+}
+
+.wrap .content .btn-login{
+	background: #494FE2;
+	border-radius: 10px;
+	color: white;
+	border: 0;
+	width: 83%;
+	height: 50px;
+	margin-left: 10%;
+	margin-top: 20px;
+	font-size: 18px; 
+}
+
+.wrap .btn-forget{
+	margin-top: 250px;
+}
+
+.wrap .btn-forget a{
+	margin-left: 43%;
+	text-decoration: underline;;
+	color: white;
+}
